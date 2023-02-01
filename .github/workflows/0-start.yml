@@ -64,7 +64,7 @@ jobs:
           git commit --message="Update game over message"
 
           echo "Push"
-          git push --set-upstream origin $BRANCH
+          git push --set-upstream origin +$BRANCH
 
           echo "Make a pull request"
           # Reference https://cli.github.com/manual/gh_pr_create
